@@ -1,0 +1,27 @@
+{
+  "name": "okr_backnode",
+  "version": "1.0.0",
+  "description": "OKR",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/okr3_1/okr_backnode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/okr3_1/okr_backnode/issues"
+  },
+  "homepage": "https://gitlab.com/okr3_1/okr_backnode#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.4"
+  }
+}
